@@ -14,4 +14,9 @@ class NotificationController {
     params
   }  
 
+  def recibiendo(){
+    println params
+    params
+  }
+
 }
