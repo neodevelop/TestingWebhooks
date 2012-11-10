@@ -18,8 +18,8 @@
       <input type="hidden" name="scope" value="${scope}    "/>
       <input type="hidden" name="state" value="${state}"/>
       <input type="hidden" name="client_secret" value="${client_secret}"/>
-      
-      <input type="submit" name="code" value="${code}">
+      <input type="hidden" name="code" value="${code}"/>
+      <input type="submit" value="Lanza">
     </form>
   </body>
 </html>
